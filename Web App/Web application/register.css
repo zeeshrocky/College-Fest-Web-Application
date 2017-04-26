@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#FFF;
+	opacity:0.4;
+	
+background-image:url(register.png);
+	transition:ease-in all 1000ms;
+	-moz-transition:ease-in all 1000ms;
+	-o-transition:ease-in all 1000ms;
+	-webkit-transition:ease-in all 1000ms;
+}
+body:hover{
+	background-color:#FFF;
+	opacity:0.4;
+	background-image:url(bannercsi2.png);
+	transition:ease-in all 1000ms;
+	-moz-transition:ease-in all 1000ms;
+	-o-transition:ease-in all 1000ms;
+	-webkit-transition:ease-in all 1000ms;
+}
+.register{
+
+	width:400px;
+	height:500px;
+	background-color:#FFF;
+	opacity:1;
+	float:right;
+	margin-left:10%;;
+	margin-top:2%;
+	-moz-border-radius: 50px;
+  	-webkit-border-radius:50px;
+ 	border-radius: 50px;
+	transition:ease-in all 1000ms;
+	-moz-transition:ease-in all 1000ms;
+	-o-transition:ease-in all 1000ms;
+	-webkit-transition:ease-in all 1000ms;
+}
+#button{
+	margin-right:30%;
+	float:right;
+	margin-top:10px;
+	width:100px;
+	height:50px;
+	opacity:1;
+	border:solid;
+	font-weight:bold;
+	
+}
+#button:hover{
+	background:#F30;
+	margin-right:30%;
+	float:right;
+	margin-top:10px;
+	width:100px;
+	height:50px;
+	opacity:1;
+	border:solid;
+	font-weight:bold;
+	
+}
+input{ 
+margin-left:50%;
+
+	  -moz-border-radius: 20px;
+	  -webkit-border-radius:20px;
+	    border-radius: 20px;
+		border:solid 1px black;
+		padding:5px;
+		height:20px;
+}
+select{
+	margin-left:50%;
+	  -moz-border-radius: 20px;
+	  -webkit-border-radius:20px;
+	    border-radius: 20px;
+		border:solid 1px black;
+		padding:5px;
+		height:40px;
+		
+	
+}
+p{
+	display:inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+  font-weight:bold;
+	margin-left:10%;
+	color:#F60;
+}
+
